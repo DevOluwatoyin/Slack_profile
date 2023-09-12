@@ -6,7 +6,15 @@
 
 main {
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
+  gap: 20px;
   text-align: center;
+  height: 100vh;
+}
+
+main img {
+  width: 200px;
+  border-radius: 50%;
 }

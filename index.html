@@ -4,18 +4,31 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Frontend Page Creation with Specific Elements</title>
-    <link rel="stylesheet" src="/style.css" />
+    <link rel="stylesheet" href="/style.css" />
   </head>
   <body>
     <main>
       <h1 data-testid="slackUserName">Oluwatoyin Jolaoso</h1>
-      <img src="" alt="Oluwatoyin Jolaoso" data-testid="slackDisplayImage" />
+      <img
+        src="./profile-photo.png"
+        alt="Oluwatoyin Jolaoso"
+        data-testid="slackDisplayImage"
+      />
       <p>
-        Current day of the week: <span data-testid="currentDayOfTheWeek"></span>
+        Current day of the week:
+        <strong id="day" data-testid="currentDayOfTheWeek"></strong>
       </p>
-      <p>Current UTC Time <span data-testid="currentUTCTime"></span></p>
+      <p>
+        Current UTC Time:
+        <strong id="time" data-testid="currentUTCTime"></strong>
+      </p>
       <p>Track: Frontend</p>
-      <link href="" data-testid="githubURL" />
+      <a
+        href="https://github.com/DevOluwatoyin/Slack_profile"
+        target="_blank"
+        data-testid="githubURL"
+        >Github Url</a
+      >
     </main>
     <script src="/script.js"></script>
   </body>
