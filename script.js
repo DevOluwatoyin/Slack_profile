@@ -11,4 +11,4 @@ const weekday = [
   "Saturday",
 ];
 day.innerText = weekday[date.getDay()];
-time.innerText = date.getUTCMilliseconds();
+time.innerText = date.getTime();
